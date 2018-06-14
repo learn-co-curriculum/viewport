@@ -56,10 +56,10 @@ need to zoom in users who are the visually impaired.
 ## Conclusion
 
 When building a responsive layout, we have to be concerned with the _viewport_
-property. This is the viewable area inside of the device's screen. Some devices
+property, which is the viewable area inside of the device's screen. Some devices
 are set up to zoom in or zoom out, so that it will scale the content to fit the
-screen. With the use of the `viewport` meta tag we can scale websites so the
-content plays well with the media queries, and prevents the user from zooming
+screen. With the use of the `viewport` meta tag, we can scale websites so the
+content plays well with your media queries, and prevents the user from zooming
 in or out on this content and breaking the layout.
 
 ## Resources
