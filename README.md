@@ -6,9 +6,7 @@ Have you ever visited a website on your phone where it will zoom out
 and everything on the page is very tiny--then you have to zoom in to
 read the text and see the content? Have you found yourself writing a
 lot of media queries to make your content scale, stretch, or fit on
-various sized screens, just to have the device itself ignore them and
-out on your website? How can we have control over these default features
-that mobile browsers enforce?
+various sized screens, just to have the device itself ignore them for your website? How can we have control over these default features that mobile browsers enforce?
 
 ## Objectives
 
