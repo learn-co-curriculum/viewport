@@ -1,17 +1,18 @@
 # The Viewport Property
 
-## Problem Statement
+## Learning Goals
 
-Have you ever visited a website on your phone where it will zoom out
-and everything on the page is very tiny--then you have to zoom in to
-read the text and see the content? Have you found yourself writing a
-lot of media queries to make your content scale, stretch, or fit on
-various sized screens, just to have the device itself ignore them for your website? How can we have control over these default features that mobile browsers enforce?
+- Explain the `width` property of viewport meta tag.
+- Explain the `initial-scale` property of viewport meta tag.
 
-## Objectives
+## Introduction
 
-1. Explain the `width` property of viewport meta tag
-2. Explain the `initial-scale` property of viewport meta tag
+Have you ever visited a website on your phone where it will zoom out and
+everything on the page is very tiny--then you have to zoom in to read the text
+and see the content? Have you found yourself writing a lot of media queries to
+make your content scale, stretch, or fit on various sized screens, just to have
+the device itself ignore them for your website? How can we have control over
+these default features that mobile browsers enforce?
 
 ## Explain the `width` Property of Viewport Meta Tag
 
@@ -25,7 +26,7 @@ not the browser.
 
 We achieve this by using the viewport meta tag inside of our html head section:
 
-```
+```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 
@@ -35,15 +36,15 @@ You will want to specify that the width of our viewport should only be *exactly*
 as wide as the device. Set its initial scale to 1.0--indicating that the device's
 initial scale is set to a normal scale, and not to zoom in or out on this content.
 
-```
+```html
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 
 If we look at our previous example again, this tag's content attribute is being
 set so that:
 
-* The width of our viewport should be set to the width of the device
-* The initial scale for the page will be set to the normal, default scale
+- The width of our viewport should be set to the width of the device.
+- The initial scale for the page will be set to the normal, default scale.
 
 There are other options that can be added, such as `minimum-scale=1.0` and
 `maximum-scale=1.0`, _or, alternatively,_ `user-scalable=false`.  Adding these
@@ -63,6 +64,4 @@ in or out on this content and breaking the layout.
 
 ## Resources
 
-* [Using the viewport meta tag to control layout on mobile](https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag)
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/viewport' title='Viewport'>Viewport</a> on Learn.co and start learning to code for free.</p>
+- [Using the viewport meta tag to control layout on mobile](https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag)
